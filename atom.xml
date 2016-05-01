@@ -5,7 +5,7 @@
   <link href="/JamesHe.github.io/atom.xml" rel="self"/>
   
   <link href="http://chogenfran.github.io/JamesHe.github.io/"/>
-  <updated>2016-05-01T05:04:03.127Z</updated>
+  <updated>2016-05-01T14:00:58.849Z</updated>
   <id>http://chogenfran.github.io/JamesHe.github.io/</id>
   
   <author>
@@ -20,37 +20,114 @@
     <link href="http://chogenfran.github.io/JamesHe.github.io/2016/05/01/%E5%82%BB%E7%93%9C%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%95%99%E7%A8%8B%EF%BC%88XX-NET%EF%BC%89/"/>
     <id>http://chogenfran.github.io/JamesHe.github.io/2016/05/01/傻瓜科学上网教程（XX-NET）/</id>
     <published>2016-05-01T03:38:50.000Z</published>
-    <updated>2016-05-01T05:04:03.127Z</updated>
+    <updated>2016-05-01T14:00:58.849Z</updated>
     
     <content type="html">&lt;h1 id=&quot;用XX-NET科学上网&quot;&gt;&lt;a href=&quot;#用XX-NET科学上网&quot; class=&quot;headerlink&quot; title=&quot;用XX-NET科学上网&quot;&gt;&lt;/a&gt;用XX-NET科学上网&lt;/h1&gt;&lt;hr&gt;
 &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;用XX-NET科学上网总体来说分5步。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;获取XX-NET。&lt;/li&gt;
-&lt;li&gt;*创建和使用自己的appid&lt;/li&gt;
 &lt;li&gt;设置和初始化。&lt;/li&gt;
+&lt;li&gt;创建和使用自己的appid&lt;/li&gt;
 &lt;li&gt;设置代理&lt;/li&gt;
 &lt;li&gt;配置可靠的浏览器。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;获取XX-NET&quot;&gt;&lt;a href=&quot;#获取XX-NET&quot; class=&quot;headerlink&quot; title=&quot;获取XX-NET&quot;&gt;&lt;/a&gt;获取XX-NET&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;进入&lt;a href=&quot;https://github.com/XX-net/XX-Net/blob/master/code/default/download.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;XX-NET下载页面&lt;/a&gt;&lt;blockquote&gt;
+&lt;li&gt;进入&lt;a href=&quot;https://github.com/XX-net/XX-                          Net/blob/master/code/default/download.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;XX-NET下载页面&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;若无法下载，可&lt;a href=&quot;https://onedrive.live.com/redir?resid=C1DEEB51D90B6861!28516&amp;amp;authkey=!AKK0aZnLpfj8LpQ&amp;amp;ithint=file%2czip&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载备份&lt;/a&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/downloadpage.jpg&quot; alt=&quot;下载页面截图&quot;&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;p&gt;下载稳定版或者懒人集成浏览器版。&lt;br&gt;&lt;div class=&quot;alert alert-success&quot;&gt;&lt;i class=&quot;fa fa-lightbulb-o&quot;&gt;&lt;/i&gt;  下载懒人集成浏览器版的就不用往下看了&lt;/div&gt;
-2. 下载后解压，目录如下
-&gt;![目录截图](../../../../images/fuckWall/folder.jpg)
 
-运行**start.vbs**
-&gt;![第一次确认](../../../../images/fuckWall/firstAsk.jpg)
+
+2. 下载后解压，运行start.vbs
+
 
 &lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  第一次运行时，将需要管理员权限安装证书（win7/8/10）&lt;/div&gt;&lt;br&gt;启动后，将由默认浏览器弹出&lt;a href=&quot;http://localhost:8085/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配置界面http://localhost:8085/&lt;/a&gt;&lt;br&gt;状态栏将出现托盘图标&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/barIcon.jpg&quot; alt=&quot;托盘图标&quot;&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;创建和使用自己的appid&quot;&gt;&lt;a href=&quot;#创建和使用自己的appid&quot; class=&quot;headerlink&quot; title=&quot;*创建和使用自己的appid&quot;&gt;&lt;/a&gt;*创建和使用自己的appid&lt;/h2&gt;&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  若对网络稳定性要求不高，可跳过此步。&lt;/div&gt;
-</content>
+&lt;h2 id=&quot;设置和初始化&quot;&gt;&lt;a href=&quot;#设置和初始化&quot; class=&quot;headerlink&quot; title=&quot;设置和初始化&quot;&gt;&lt;/a&gt;设置和初始化&lt;/h2&gt;&lt;p&gt;打开Chrome浏览器（如果没有，&lt;a href=&quot;http://dl.chromeba.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载&lt;/a&gt;装一个）&lt;br&gt;在地址栏输入&lt;code&gt;chrome://extensions/&lt;/code&gt;，回车&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/exten.jpg&quot; alt=&quot;扩展程序&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;接着将解压后的XX-NET文件夹&lt;code&gt;XX-NET\SwitchyOmega&lt;/code&gt;下的&lt;code&gt;SwitchyOmega.crx&lt;/code&gt;拖到Chrome浏览器扩展程序界面中&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/install.jpg&quot; alt=&quot;文件&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;确认添加&lt;strong&gt;扩展程序&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/installConfirm.jpg&quot; alt=&quot;确认安装&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;跳过教程&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/skip.jpg&quot; alt=&quot;跳过教程&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在跳出的页面中点击&lt;strong&gt;导入导出[1]&lt;/strong&gt;然后点击&lt;strong&gt;从备份文件恢复[2]&lt;/strong&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/import.jpg&quot; alt=&quot;回复备份&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;选择&lt;code&gt;XX-NET\SwitchyOmega&lt;/code&gt;下的&lt;code&gt;OmegaOptions.bak&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/file.jpg&quot; alt=&quot;选择文件&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;跳过教程&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/skip1.jpg&quot; alt=&quot;跳过教程&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;点击SwitchyOmega，切换成“XX-Net自动切换”.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/switch.jpg&quot; alt=&quot;切换&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;键点击任务栏的XX-NET图标，选择&lt;code&gt;取消全局代理&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/chooce.jpg&quot; alt=&quot;选择&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;现在就，海阔凭鱼跃，天高任鸟飞啦&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/done.jpg&quot; alt=&quot;最终&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  新下载安装的Chrome可能完全没有扩展程序，正常现象 &lt;/div&gt;
+&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  若无法科学上网，请等待XX-NET搜索IP。&lt;/div&gt;
+&lt;h2 id=&quot;创建和使用自己的appid&quot;&gt;&lt;a href=&quot;#创建和使用自己的appid&quot; class=&quot;headerlink&quot; title=&quot;创建和使用自己的appid&quot;&gt;&lt;/a&gt;创建和使用自己的appid&lt;/h2&gt;&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  若对网络要求不高，可跳过此步。&lt;/div&gt;
+&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  该步骤至少需要一个手机号&lt;/div&gt;
+&lt;ol&gt;
+&lt;li&gt;首先到&lt;a href=&quot;https://accounts.google.com/SignUp&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;谷歌注册&lt;/a&gt;一个帐号,将需要手机号。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://myaccount.google.com/phone?pli=1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;绑定手机&lt;/a&gt;，若注册时已经绑定则可以跳过。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.google.com/settings/security/lesssecureapps&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;启用弱安全应用&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&quot;https://console.cloud.google.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;创建项目&lt;/a&gt;,在右上角(点开图中Goagent右边小三角)创建应用，随便命名，如我的就是&lt;code&gt;My Project&lt;/code&gt;。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/new.jpg&quot; alt=&quot;创建&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;图中圈出的就是你的appid,如我的就是&lt;code&gt;proven-dialect-129812&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/id.jpg&quot; alt=&quot;appid&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;将你的appid复制到&lt;a href=&quot;http:/localhost:8085/?module=gae_proxy&amp;amp;menu=deploy&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配置界面-部署服务端界面&lt;/a&gt;的GAE Appid框中，开始部署&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/do.jpg&quot; alt=&quot;部署&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在弹出的窗口中给予权限。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/allow.jpg&quot; alt=&quot;给予权限&quot;&gt;&lt;br&gt;部署成功。&lt;br&gt;&lt;img src=&quot;../../../../images/fuckWall/doDone.jpg&quot; alt=&quot;部署成功&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;配置GAEProxy,将自己的appid复制到&lt;a href=&quot;http://localhost:8085/?module=gae_proxy&amp;amp;menu=config&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配置页面&lt;/a&gt;的GAE Appid栏。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/config.jpg&quot; alt=&quot;配置&quot;&gt;&lt;br&gt;配置成功&lt;br&gt;&lt;img src=&quot;../../../../images/fuckWall/AllDone.jpg&quot; alt=&quot;成功界面&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;科学上网配置完成。&lt;br&gt;若要配置多个appid，则在&lt;a href=&quot;http:/localhost:8085/?module=gae_proxy&amp;amp;menu=deploy&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配置界面-部署服务端界面&lt;/a&gt;和&lt;a href=&quot;http://localhost:8085/?module=gae_proxy&amp;amp;menu=config&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配置页面&lt;/a&gt;框中填appid时用&lt;code&gt;|&lt;/code&gt;号隔开。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;如有意见建议或是问题反馈，可在下方评论。&quot;&gt;&lt;a href=&quot;#如有意见建议或是问题反馈，可在下方评论。&quot; class=&quot;headerlink&quot; title=&quot;如有意见建议或是问题反馈，可在下方评论。&quot;&gt;&lt;/a&gt;如有意见建议或是问题反馈，可在下方评论。&lt;/h2&gt;&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  每个appid每天限制1G流量，每个帐号限制12个appid&lt;/div&gt;
+&lt;div class=&quot;alert alert-success&quot;&gt;&lt;i class=&quot;fa fa-lightbulb-o&quot;&gt;&lt;/i&gt;  DFTBA&lt;/div&gt;</content>
     
     <summary type="html">
     
@@ -58,8 +135,8 @@
 &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;用XX-NET科学上网总体来说分5步。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;获取XX-NET。&lt;/li&gt;
-&lt;li&gt;*创建和使用自己的appid&lt;/li&gt;
 &lt;li&gt;设置和初始化。&lt;/li&gt;
+&lt;li&gt;创建和使用自己的appid&lt;/li&gt;
 &lt;li&gt;设置代理&lt;/li&gt;
 &lt;li&gt;配置可靠的浏览器。&lt;/li&gt;
 &lt;/ol&gt;
