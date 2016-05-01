@@ -5,7 +5,7 @@
   <link href="/JamesHe.github.io/atom.xml" rel="self"/>
   
   <link href="http://chogenfran.github.io/JamesHe.github.io/"/>
-  <updated>2016-05-01T04:21:20.303Z</updated>
+  <updated>2016-05-01T04:57:31.014Z</updated>
   <id>http://chogenfran.github.io/JamesHe.github.io/</id>
   
   <author>
@@ -20,29 +20,49 @@
     <link href="http://chogenfran.github.io/JamesHe.github.io/2016/05/01/%E5%82%BB%E7%93%9C%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%95%99%E7%A8%8B%EF%BC%88XX-NET%EF%BC%89/"/>
     <id>http://chogenfran.github.io/JamesHe.github.io/2016/05/01/傻瓜科学上网教程（XX-NET）/</id>
     <published>2016-05-01T03:38:50.000Z</published>
-    <updated>2016-05-01T04:21:20.303Z</updated>
+    <updated>2016-05-01T04:57:31.014Z</updated>
     
     <content type="html">&lt;h1 id=&quot;用XX-NET科学上网&quot;&gt;&lt;a href=&quot;#用XX-NET科学上网&quot; class=&quot;headerlink&quot; title=&quot;用XX-NET科学上网&quot;&gt;&lt;/a&gt;用XX-NET科学上网&lt;/h1&gt;&lt;hr&gt;
 &lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;用XX-NET科学上网总体来说分5步。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;获取XX-NET。&lt;/li&gt;
+&lt;li&gt;*创建和使用自己的appid&lt;/li&gt;
 &lt;li&gt;设置和初始化。&lt;/li&gt;
-&lt;li&gt;创建和使用自己的appid&lt;/li&gt;
 &lt;li&gt;设置代理&lt;/li&gt;
 &lt;li&gt;配置可靠的浏览器。&lt;/li&gt;
 &lt;/ol&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
 &lt;h2 id=&quot;获取XX-NET&quot;&gt;&lt;a href=&quot;#获取XX-NET&quot; class=&quot;headerlink&quot; title=&quot;获取XX-NET&quot;&gt;&lt;/a&gt;获取XX-NET&lt;/h2&gt;&lt;ol&gt;
 &lt;li&gt;进入&lt;a href=&quot;https://github.com/XX-net/XX-Net/blob/master/code/default/download.md&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;XX-NET下载页面&lt;/a&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;../../../JamesHe.github.io/images/fuckWall/downloadpage.jpg&quot; alt=&quot;下载页面截图&quot;&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
+&lt;p&gt;下载稳定版或者懒人集成浏览器版。&lt;br&gt;&lt;div class=&quot;alert alert-success&quot;&gt;&lt;i class=&quot;fa fa-lightbulb-o&quot;&gt;&lt;/i&gt;  下载懒人集成浏览器版的就不用往下看了&lt;/div&gt;
+2. 下载后解压，目录如下
+&gt;![目录截图](../../../JamesHe.github.io/images/fuckWall/folder.jpg)
+
+运行**start.vbs**
+&gt;![第一次确认](../../../JamesHe.github.io/images/fuckWall/firstAsk.jpg)
+
+&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  第一次运行时，将需要管理员权限安装证书（win7/8/10）&lt;/div&gt;&lt;br&gt;启动后，将由默认浏览器弹出&lt;a href=&quot;http://localhost:8085/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配置界面http://localhost:8085/&lt;/a&gt;&lt;br&gt;状态栏将出现托盘图标&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../JamesHe.github.io/images/fuckWall/barIcon.jpg&quot; alt=&quot;托盘图标&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;创建和使用自己的appid&quot;&gt;&lt;a href=&quot;#创建和使用自己的appid&quot; class=&quot;headerlink&quot; title=&quot;*创建和使用自己的appid&quot;&gt;&lt;/a&gt;*创建和使用自己的appid&lt;/h2&gt;&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  若对网络稳定性要求不高，可跳过此步。&lt;/div&gt;
 </content>
     
     <summary type="html">
     
       &lt;h1 id=&quot;用XX-NET科学上网&quot;&gt;&lt;a href=&quot;#用XX-NET科学上网&quot; class=&quot;headerlink&quot; title=&quot;用XX-NET科学上网&quot;&gt;&lt;/a&gt;用XX-NET科学上网&lt;/h1&gt;&lt;hr&gt;
-&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=
+&lt;h2 id=&quot;概述&quot;&gt;&lt;a href=&quot;#概述&quot; class=&quot;headerlink&quot; title=&quot;概述&quot;&gt;&lt;/a&gt;概述&lt;/h2&gt;&lt;p&gt;用XX-NET科学上网总体来说分5步。&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;获取XX-NET。&lt;/li&gt;
+&lt;li&gt;*创建和使用自己的appid&lt;/li&gt;
+&lt;li&gt;设置和初始化。&lt;/li&gt;
+&lt;li&gt;设置代理&lt;/li&gt;
+&lt;li&gt;配置可靠的浏览器。&lt;/li&gt;
+&lt;/ol&gt;
     
     </summary>
     
