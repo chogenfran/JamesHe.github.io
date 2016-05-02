@@ -1,0 +1,318 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>C语言零基础入门1-引子 | James&#39;Blog</title>
+  <meta name="author" content="James He">
+  
+  <meta name="description" content="C语言入门1–引子。一些话很早就有这样的念头了，现在网上有的一些编程语言入门，要么废话连篇，要么在谭C的影响下只关注一些未定义行为和完全不该有的繁琐细节。
+像i=i+++i+++i++这样的代码，你不论写给谁看，都会想一巴掌甩在你的脸上。
+  代码最重要的是简洁和可读性
+而国内的很多语言入门学习类书籍完全是朝着编教材的方向去的，动辄定义 定理 例题完全不考虑学生的兴趣，教学的趣味性，误人子弟，抹杀乐趣。
+再者，圈内有个怪现象就是，学的多了，连人话都不会说了，力求说出的每一句话绝对正确，顺带越晦涩难懂越好，再加上国内大部分大学老师自身教学水平有限，上课大多只是背书，简直就是在恐吓初学者。">
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <meta property="og:title" content="C语言零基础入门1-引子"/>
+  <meta property="og:site_name" content="James&#39;Blog"/>
+
+  
+    <meta property="og:image" content="undefined"/>
+  
+
+  
+  
+    <link href="/JamesHe.github.io/favicon.png" rel="icon">
+  
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/JamesHe.github.io/css/themes/bootstrap.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/JamesHe.github.io/css/font-awesome.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/JamesHe.github.io/css/style.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/JamesHe.github.io/css/responsive.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/JamesHe.github.io/css/highlight.css" media="screen" type="text/css">
+  <link rel="stylesheet" href="/JamesHe.github.io/css/google-fonts.css" media="screen" type="text/css">
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <script src="/JamesHe.github.io/js/jquery-2.0.3.min.js"></script>
+
+  <!-- analytics -->
+  
+
+
+
+</head>
+
+ <body>  
+  <nav id="main-nav" class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <button type="button" class="navbar-header navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	<span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+       <a class="navbar-brand" href="/JamesHe.github.io/">James&#39;Blog</a>
+      <div class="collapse navbar-collapse nav-menu">
+		<ul class="nav navbar-nav">
+		  
+		  <li>
+			<a href="/JamesHe.github.io/archives" title="All the articles.">
+			  <i class="fa fa-archive"></i>Archives
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/JamesHe.github.io/categories" title="All the categories.">
+			  <i class="fa fa-folder"></i>Categories
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/JamesHe.github.io/tags" title="All the tags.">
+			  <i class="fa fa-tags"></i>Tags
+			</a>
+		  </li>
+		  
+		  <li>
+			<a href="/JamesHe.github.io/about" title="About me.">
+			  <i class="fa fa-user"></i>About
+			</a>
+		  </li>
+		  
+		</ul>
+      </div>
+    </div> <!-- container -->
+</nav>
+<div class="clearfix"></div>
+
+  <div class="container">
+  	<div class="content">
+    	 
+
+
+	
+		<div class="page-header page-header-inverse ">		
+			<h1 class="title title-inverse "> C语言零基础入门1-引子</h1>
+		</div>		
+	
+
+
+
+
+
+
+<div class="row post">
+	<!-- cols -->
+	
+	<div id="top_meta"></div>
+	<div class="col-md-9">
+	
+
+	<!-- content -->
+	<div class="mypage">		
+	  		
+
+	  <h1 id="C语言入门1–引子。"><a href="#C语言入门1–引子。" class="headerlink" title="C语言入门1–引子。"></a>C语言入门1–引子。</h1><h2 id="一些话"><a href="#一些话" class="headerlink" title="一些话"></a>一些话</h2><p>很早就有这样的念头了，现在网上有的一些编程语言入门，要么废话连篇，要么在谭C的影响下只关注一些未定义行为和完全不该有的繁琐细节。</p>
+<p>像<code>i=i+++i+++i++</code>这样的代码，你不论写给谁看，都会想一巴掌甩在你的脸上。</p>
+<div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  代码最重要的是简洁和可读性</div>
+<p>而国内的很多语言入门学习类书籍完全是朝着编教材的方向去的，动辄<code>定义</code> <code>定理</code> <code>例题</code>完全不考虑学生的兴趣，教学的趣味性，误人子弟，抹杀乐趣。</p>
+<p>再者，圈内有个怪现象就是，学的多了，连人话都不会说了，力求说出的每一句话绝对正确，顺带越晦涩难懂越好，再加上国内大部分大学老师自身教学水平有限，上课大多只是背书，简直就是在恐吓初学者。</p>
+<a id="more"></a>
+<p>我开始这个系列的原因就是希望能帮助对编程有兴趣而因为以上种种原因而不得其门而入的同学，当然，若是您想回顾自己所学，或帮助我查缺补漏，在下也很感谢。</p>
+<p>那么。我们就先从准备工作开始吧。</p>
+<h2 id="IDE的安装"><a href="#IDE的安装" class="headerlink" title="IDE的安装"></a>IDE的安装</h2><p><strong>什么是IDE？</strong><br>IDE就是<strong>集成开发环境</strong>（<strong>I</strong>ntegrated <strong>D</strong>evelopment <strong>E</strong>nvironment）的英文缩写，而集成开发环境包括代码编辑器、编译器、调试器和图形用户界面工具，你可以将它理解成你编程用的工具，就像 <strong>手机是你的通讯工具一样</strong>。</p>
+<div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  程序员通过代码编辑器编辑代码，通过编译器将代码翻译成机器所能理解的机器指令，也就是可执行程序，而调试器帮助程序员调试自己的程序，找出程序漏洞和错误（BUG），图形编译器使程序员编程更方便。</div>
+<p class="text-danger">会有人在你编程建议你不使用IDE，从而更了解编译原理，然而我不建议这样做，初学者应从这些细枝末节中解放出来，更关注他该学习的内容，更高效率的学习，而不是把时间浪费在配置一些东西上面。</p>
+<p>本教程基于<a href="https://www.visualstudio.com/" target="_blank" rel="external">Visual Studio 2015</a><br>微软的Visual Studio 2015 Community是一个免费，功能强大的IDE。<a href="ed2k://|file|cn_visual_studio_community_2015_x86_dvd_6847368.iso|4013920256|EB7F6605EDE67509E218E29173AC6574|/" target="_blank" rel="external">下载链接</a></p>
+<blockquote>
+<p><img src="../../../../images/firstC/community.png" alt="Visual Studio 2015 Community"></p>
+</blockquote>
+<p>下载得到的iso文件后，双击iso文件（win8/10），回到我的电脑，便出现了虚拟光驱，双击打开，或打开其中的运行文件。</p>
+<p>选择自定义</p>
+<blockquote>
+<p><img src="../../../../images/firstC/install1.png" alt="Visual Studio 2015 Community install1"></p>
+</blockquote>
+<p>自己选择要安装的路径，选择编程语言-Visual C++(其他的最好不要选)</p>
+<blockquote>
+<p><img src="../../../../images/firstC/install2.png" alt="Visual Studio 2015 Community install3"></p>
+</blockquote>
+<p>然后可以看个电影，逛逛B站什么的，Visual Studio 2015安装较慢，一般取决于你的硬盘和网络速度，一般会有1个小时左右。</p>
+<p>安装成功后，我们的准备工作就做好啦。</p>
+<div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  DFTBA</div>	  
+	</div>
+
+	<div>
+  	<center>
+	<div class="pagination">
+<ul class="pagination">
+	 
+		
+          <li class="prev disabled"><a><i class="fa fa-arrow-circle-o-left"></i>上一页</a></li>
+        
+
+        <li><a href="/JamesHe.github.io/archives"><i class="fa fa-archive"></i>Archive</a></li>
+
+		
+		   <li class="next"><a href="/JamesHe.github.io/2016/05/01/傻瓜科学上网教程（XX-NET）/" class="alignright next">下一页<i class="fa fa-arrow-circle-o-right"></i></a></li>         
+        
+	
+</ul>
+</div>
+
+    </center>
+	</div>
+
+    <!-- share -->
+    
+        
+    <div class="bdsharebuttonbox">
+        <a href="#" class="bds_more" data-cmd="more"></a>
+        <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+        <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+        <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+        <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+        <a href="#" class="bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+        <a href="#" class="bds_evernotecn" data-cmd="evernotecn" title="分享到印象笔记"></a>
+        <a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记"></a>
+        <a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+    </div>
+    <script>
+        window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};
+        with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+    </script>
+
+
+        
+
+    
+	
+	<!-- comment -->
+	
+<section id="comment">
+  <h2 class="title">留言</h2>
+
+  
+  	 <div class="ds-thread" data-thread-key="2016/05/02/C语言零基础入门1-引子/" data-title="C语言零基础入门1-引子" data-url="http://chogenfran.github.io/JamesHe.github.io/JamesHe.github.io/2016/05/02/C语言零基础入门1-引子/"></div>  
+  
+</section>
+
+	</div> <!-- col-md-9/col-md-12 -->
+		
+	
+	<div id="side_meta">
+		<div class="col-md-3" id="post_meta"> 
+
+	<!-- date -->
+	
+	<div class="meta-widget">
+	<i class="fa fa-clock-o"></i>
+	2016-05-02 
+	</div>
+	
+
+	<!-- categories -->
+    
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#categorys"><i class="fa fa-folder"></i></a>	
+    <ul id="categorys" class="tag_box list-unstyled collapse in">
+          
+  <li>
+    <li><a href="/JamesHe.github.io/categories/C语言入门/">C语言入门<span>1</span></a></li>
+  </li>
+
+    </ul>
+	</div>
+	
+
+	<!-- tags -->
+	
+	<div class="meta-widget">
+	<a data-toggle="collapse" data-target="#tags"><i class="fa fa-tags"></i></a>		  
+    <ul id="tags" class="tag_box list-unstyled collapse in">	  
+	    
+  <li><a href="/JamesHe.github.io/tags/语言学习/">语言学习<span>1</span></a></li>
+    </ul>
+	</div>
+		
+
+	<!-- toc -->
+	<div class="meta-widget">
+	
+	   <a data-toggle="collapse" data-target="#toc"><i class="fa fa-bars"></i></a>
+	   <div id="toc" class="toc collapse in">
+			<ol class="toc-article"><li class="toc-article-item toc-article-level-1"><a class="toc-article-link" href="#C语言入门1–引子。"><span class="toc-article-text">C语言入门1–引子。</span></a><ol class="toc-article-child"><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#一些话"><span class="toc-article-text">一些话</span></a></li><li class="toc-article-item toc-article-level-2"><a class="toc-article-link" href="#IDE的安装"><span class="toc-article-text">IDE的安装</span></a></li></ol></li></ol>
+		</div>
+	
+	</div>
+	
+    <hr>
+	
+</div><!-- col-md-3 -->
+
+	</div>
+		
+
+</div><!-- row -->
+
+<script type="text/javascript">
+  var duoshuoQuery = { short_name: 'true' };
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';
+    ds.async = true;
+    ds.src = 'http://static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+</script>
+
+
+
+	</div>
+  </div>
+  <div class="container-narrow">
+  <footer> <p>
+  &copy; 2016 James He
+  
+      with help from <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="http://getbootstrap.com/" target="_blank">Twitter Bootstrap</a>. Theme by <a href="http://github.com/wzpan/hexo-theme-freemind/">Freemind</a>.    
+</p> </footer>
+</div> <!-- container-narrow -->
+  
+
+
+  
+<a id="gotop" href="#">   
+  <span>▲</span> 
+</a>
+
+<script src="/JamesHe.github.io/js/jquery.imagesloaded.min.js"></script>
+<script src="/JamesHe.github.io/js/gallery.js"></script>
+<script src="/JamesHe.github.io/js/bootstrap.min.js"></script>
+<script src="/JamesHe.github.io/js/main.js"></script>
+<script src="/JamesHe.github.io/js/search.js"></script> 
+
+
+<link rel="stylesheet" href="/JamesHe.github.io/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/JamesHe.github.io/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+(function($){
+  $('.fancybox').fancybox();
+})(jQuery);
+</script>
+
+
+
+   <script type="text/javascript">      
+     var search_path = "search.xml";
+	 if (search_path.length == 0) {
+	 	search_path = "search.xml";
+	 }
+	 var path = "/JamesHe.github.io/" + search_path;
+     searchFunc(path, 'local-search-input', 'local-search-result');
+   </script>
+
+</body>
+   </html>

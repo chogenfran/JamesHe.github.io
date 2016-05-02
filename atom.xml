@@ -5,7 +5,7 @@
   <link href="/JamesHe.github.io/atom.xml" rel="self"/>
   
   <link href="http://chogenfran.github.io/JamesHe.github.io/"/>
-  <updated>2016-05-01T14:19:18.995Z</updated>
+  <updated>2016-05-02T04:08:35.930Z</updated>
   <id>http://chogenfran.github.io/JamesHe.github.io/</id>
   
   <author>
@@ -16,11 +16,63 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>C语言零基础入门1-引子</title>
+    <link href="http://chogenfran.github.io/JamesHe.github.io/2016/05/02/C%E8%AF%AD%E8%A8%80%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A81-%E5%BC%95%E5%AD%90/"/>
+    <id>http://chogenfran.github.io/JamesHe.github.io/2016/05/02/C语言零基础入门1-引子/</id>
+    <published>2016-05-02T02:33:29.000Z</published>
+    <updated>2016-05-02T04:08:35.930Z</updated>
+    
+    <content type="html">&lt;h1 id=&quot;C语言入门1–引子。&quot;&gt;&lt;a href=&quot;#C语言入门1–引子。&quot; class=&quot;headerlink&quot; title=&quot;C语言入门1–引子。&quot;&gt;&lt;/a&gt;C语言入门1–引子。&lt;/h1&gt;&lt;h2 id=&quot;一些话&quot;&gt;&lt;a href=&quot;#一些话&quot; class=&quot;headerlink&quot; title=&quot;一些话&quot;&gt;&lt;/a&gt;一些话&lt;/h2&gt;&lt;p&gt;很早就有这样的念头了，现在网上有的一些编程语言入门，要么废话连篇，要么在谭C的影响下只关注一些未定义行为和完全不该有的繁琐细节。&lt;/p&gt;
+&lt;p&gt;像&lt;code&gt;i=i+++i+++i++&lt;/code&gt;这样的代码，你不论写给谁看，都会想一巴掌甩在你的脸上。&lt;/p&gt;
+&lt;div class=&quot;alert alert-success&quot;&gt;&lt;i class=&quot;fa fa-lightbulb-o&quot;&gt;&lt;/i&gt;  代码最重要的是简洁和可读性&lt;/div&gt;
+&lt;p&gt;而国内的很多语言入门学习类书籍完全是朝着编教材的方向去的，动辄&lt;code&gt;定义&lt;/code&gt; &lt;code&gt;定理&lt;/code&gt; &lt;code&gt;例题&lt;/code&gt;完全不考虑学生的兴趣，教学的趣味性，误人子弟，抹杀乐趣。&lt;/p&gt;
+&lt;p&gt;再者，圈内有个怪现象就是，学的多了，连人话都不会说了，力求说出的每一句话绝对正确，顺带越晦涩难懂越好，再加上国内大部分大学老师自身教学水平有限，上课大多只是背书，简直就是在恐吓初学者。&lt;/p&gt;
+&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;我开始这个系列的原因就是希望能帮助对编程有兴趣而因为以上种种原因而不得其门而入的同学，当然，若是您想回顾自己所学，或帮助我查缺补漏，在下也很感谢。&lt;/p&gt;
+&lt;p&gt;那么。我们就先从准备工作开始吧。&lt;/p&gt;
+&lt;h2 id=&quot;IDE的安装&quot;&gt;&lt;a href=&quot;#IDE的安装&quot; class=&quot;headerlink&quot; title=&quot;IDE的安装&quot;&gt;&lt;/a&gt;IDE的安装&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;什么是IDE？&lt;/strong&gt;&lt;br&gt;IDE就是&lt;strong&gt;集成开发环境&lt;/strong&gt;（&lt;strong&gt;I&lt;/strong&gt;ntegrated &lt;strong&gt;D&lt;/strong&gt;evelopment &lt;strong&gt;E&lt;/strong&gt;nvironment）的英文缩写，而集成开发环境包括代码编辑器、编译器、调试器和图形用户界面工具，你可以将它理解成你编程用的工具，就像 &lt;strong&gt;手机是你的通讯工具一样&lt;/strong&gt;。&lt;/p&gt;
+&lt;div class=&quot;alert alert-success&quot;&gt;&lt;i class=&quot;fa fa-lightbulb-o&quot;&gt;&lt;/i&gt;  程序员通过代码编辑器编辑代码，通过编译器将代码翻译成机器所能理解的机器指令，也就是可执行程序，而调试器帮助程序员调试自己的程序，找出程序漏洞和错误（BUG），图形编译器使程序员编程更方便。&lt;/div&gt;
+&lt;p class=&quot;text-danger&quot;&gt;会有人在你编程建议你不使用IDE，从而更了解编译原理，然而我不建议这样做，初学者应从这些细枝末节中解放出来，更关注他该学习的内容，更高效率的学习，而不是把时间浪费在配置一些东西上面。&lt;/p&gt;
+&lt;p&gt;本教程基于&lt;a href=&quot;https://www.visualstudio.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Visual Studio 2015&lt;/a&gt;&lt;br&gt;微软的Visual Studio 2015 Community是一个免费，功能强大的IDE。&lt;a href=&quot;ed2k://|file|cn_visual_studio_community_2015_x86_dvd_6847368.iso|4013920256|EB7F6605EDE67509E218E29173AC6574|/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;下载链接&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/firstC/community.png&quot; alt=&quot;Visual Studio 2015 Community&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;下载得到的iso文件后，双击iso文件（win8/10），回到我的电脑，便出现了虚拟光驱，双击打开，或打开其中的运行文件。&lt;/p&gt;
+&lt;p&gt;选择自定义&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/firstC/install1.png&quot; alt=&quot;Visual Studio 2015 Community install1&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;自己选择要安装的路径，选择编程语言-Visual C++(其他的最好不要选)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;../../../../images/firstC/install2.png&quot; alt=&quot;Visual Studio 2015 Community install3&quot;&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;然后可以看个电影，逛逛B站什么的，Visual Studio 2015安装较慢，一般取决于你的硬盘和网络速度，一般会有1个小时左右。&lt;/p&gt;
+&lt;p&gt;安装成功后，我们的准备工作就做好啦。&lt;/p&gt;
+&lt;div class=&quot;alert alert-success&quot;&gt;&lt;i class=&quot;fa fa-lightbulb-o&quot;&gt;&lt;/i&gt;  DFTBA&lt;/div&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;C语言入门1–引子。&quot;&gt;&lt;a href=&quot;#C语言入门1–引子。&quot; class=&quot;headerlink&quot; title=&quot;C语言入门1–引子。&quot;&gt;&lt;/a&gt;C语言入门1–引子。&lt;/h1&gt;&lt;h2 id=&quot;一些话&quot;&gt;&lt;a href=&quot;#一些话&quot; class=&quot;headerlink&quot; title=&quot;一些话&quot;&gt;&lt;/a&gt;一些话&lt;/h2&gt;&lt;p&gt;很早就有这样的念头了，现在网上有的一些编程语言入门，要么废话连篇，要么在谭C的影响下只关注一些未定义行为和完全不该有的繁琐细节。&lt;/p&gt;
+&lt;p&gt;像&lt;code&gt;i=i+++i+++i++&lt;/code&gt;这样的代码，你不论写给谁看，都会想一巴掌甩在你的脸上。&lt;/p&gt;
+&lt;div class=&quot;alert alert-success&quot;&gt;&lt;i class=&quot;fa fa-lightbulb-o&quot;&gt;&lt;/i&gt;  代码最重要的是简洁和可读性&lt;/div&gt;
+&lt;p&gt;而国内的很多语言入门学习类书籍完全是朝着编教材的方向去的，动辄&lt;code&gt;定义&lt;/code&gt; &lt;code&gt;定理&lt;/code&gt; &lt;code&gt;例题&lt;/code&gt;完全不考虑学生的兴趣，教学的趣味性，误人子弟，抹杀乐趣。&lt;/p&gt;
+&lt;p&gt;再者，圈内有个怪现象就是，学的多了，连人话都不会说了，力求说出的每一句话绝对正确，顺带越晦涩难懂越好，再加上国内大部分大学老师自身教学水平有限，上课大多只是背书，简直就是在恐吓初学者。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="C语言入门" scheme="http://chogenfran.github.io/JamesHe.github.io/categories/C%E8%AF%AD%E8%A8%80%E5%85%A5%E9%97%A8/"/>
+    
+    
+      <category term="语言学习" scheme="http://chogenfran.github.io/JamesHe.github.io/tags/%E8%AF%AD%E8%A8%80%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>傻瓜科学上网教程（XX-NET）</title>
     <link href="http://chogenfran.github.io/JamesHe.github.io/2016/05/01/%E5%82%BB%E7%93%9C%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%95%99%E7%A8%8B%EF%BC%88XX-NET%EF%BC%89/"/>
     <id>http://chogenfran.github.io/JamesHe.github.io/2016/05/01/傻瓜科学上网教程（XX-NET）/</id>
     <published>2016-05-01T03:38:50.000Z</published>
-    <updated>2016-05-01T14:19:18.995Z</updated>
+    <updated>2016-05-02T04:16:39.457Z</updated>
     
     <content type="html">&lt;h1 id=&quot;用XX-NET科学上网&quot;&gt;&lt;a href=&quot;#用XX-NET科学上网&quot; class=&quot;headerlink&quot; title=&quot;用XX-NET科学上网&quot;&gt;&lt;/a&gt;用XX-NET科学上网&lt;/h1&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;扩展阅读&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -28,7 +80,7 @@
 &lt;ol&gt;
 &lt;li&gt;获取XX-NET。&lt;/li&gt;
 &lt;li&gt;设置和初始化。&lt;/li&gt;
-&lt;li&gt;创建和使用自己的appid&lt;/li&gt;
+&lt;li&gt;创建和使用自己的appid*&lt;/li&gt;
 &lt;li&gt;设置代理&lt;/li&gt;
 &lt;li&gt;配置可靠的浏览器。&lt;/li&gt;
 &lt;/ol&gt;
@@ -40,13 +92,12 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/downloadpage.jpg&quot; alt=&quot;下载页面截图&quot;&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;下载稳定版或者懒人集成浏览器版。&lt;br&gt;&lt;div class=&quot;alert alert-success&quot;&gt;&lt;i class=&quot;fa fa-lightbulb-o&quot;&gt;&lt;/i&gt;  下载懒人集成浏览器版的就不用往下看了&lt;/div&gt;
-
-
-2. 下载后解压，运行start.vbs
-
-
-&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  第一次运行时，将需要管理员权限安装证书（win7/8/10）&lt;/div&gt;&lt;br&gt;启动后，将由默认浏览器弹出&lt;a href=&quot;http://localhost:8085/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配置界面http://localhost:8085/&lt;/a&gt;&lt;br&gt;状态栏将出现托盘图标&lt;/p&gt;
+&lt;p&gt;下载稳定版或者懒人集成浏览器版。&lt;br&gt;&lt;div class=&quot;alert alert-success&quot;&gt;&lt;i class=&quot;fa fa-lightbulb-o&quot;&gt;&lt;/i&gt;  下载懒人集成浏览器版的就不用往下看了&lt;/div&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;下载后解压，运行&lt;strong&gt;start.vbs&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  第一次运行时，将需要管理员权限安装证书（win7/8/10）&lt;/div&gt;
+&lt;p&gt;启动后，将由默认浏览器弹出&lt;a href=&quot;http://localhost:8085/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配置界面http://localhost:8085/&lt;/a&gt;&lt;br&gt;状态栏将出现托盘图标&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/barIcon.jpg&quot; alt=&quot;托盘图标&quot;&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -55,6 +106,7 @@
 &lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/exten.jpg&quot; alt=&quot;扩展程序&quot;&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;接着将解压后的XX-NET文件夹&lt;code&gt;XX-NET\SwitchyOmega&lt;/code&gt;下的&lt;code&gt;SwitchyOmega.crx&lt;/code&gt;拖到Chrome浏览器扩展程序界面中&lt;/p&gt;
+&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  新下载安装的Chrome可能完全没有扩展程序，正常现象&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/install.jpg&quot; alt=&quot;文件&quot;&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -90,10 +142,9 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/done.jpg&quot; alt=&quot;最终&quot;&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  新下载安装的Chrome可能完全没有扩展程序，正常现象 &lt;/div&gt;
-&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  若无法科学上网，请等待XX-NET搜索IP。&lt;/div&gt;
-&lt;h2 id=&quot;创建和使用自己的appid&quot;&gt;&lt;a href=&quot;#创建和使用自己的appid&quot; class=&quot;headerlink&quot; title=&quot;创建和使用自己的appid&quot;&gt;&lt;/a&gt;创建和使用自己的appid&lt;/h2&gt;&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  若对网络要求不高，可跳过此步。&lt;/div&gt;
-&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  该步骤至少需要一个手机号&lt;/div&gt;
+&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;   
+若无法科学上网，请等待XX-NET搜索IP。&lt;/div&gt;
+&lt;h2 id=&quot;创建和使用自己的appid&quot;&gt;&lt;a href=&quot;#创建和使用自己的appid&quot; class=&quot;headerlink&quot; title=&quot;创建和使用自己的appid*&quot;&gt;&lt;/a&gt;创建和使用自己的appid*&lt;/h2&gt;&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  若对网络要求不高，可跳过此步。&lt;/div&gt;
 &lt;ol&gt;
 &lt;li&gt;首先到&lt;a href=&quot;https://accounts.google.com/SignUp&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;谷歌注册&lt;/a&gt;一个帐号,将需要手机号。&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://myaccount.google.com/phone?pli=1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;绑定手机&lt;/a&gt;，若注册时已经绑定则可以跳过。&lt;/li&gt;
@@ -124,11 +175,9 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;../../../../images/fuckWall/config.jpg&quot; alt=&quot;配置&quot;&gt;&lt;br&gt;配置成功&lt;br&gt;&lt;img src=&quot;../../../../images/fuckWall/AllDone.jpg&quot; alt=&quot;成功界面&quot;&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;科学上网配置完成。&lt;br&gt;若要配置多个appid，则在&lt;a href=&quot;http:/localhost:8085/?module=gae_proxy&amp;amp;menu=deploy&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配置界面-部署服务端界面&lt;/a&gt;和&lt;a href=&quot;http://localhost:8085/?module=gae_proxy&amp;amp;menu=config&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配置页面&lt;/a&gt;框中填appid时用&lt;code&gt;|&lt;/code&gt;号隔开。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;如有意见建议或是问题反馈，可在下方评论。&quot;&gt;&lt;a href=&quot;#如有意见建议或是问题反馈，可在下方评论。&quot; class=&quot;headerlink&quot; title=&quot;如有意见建议或是问题反馈，可在下方评论。&quot;&gt;&lt;/a&gt;如有意见建议或是问题反馈，可在下方评论。&lt;/h2&gt;&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  每个appid每天限制1G流量，每个帐号限制12个appid&lt;/div&gt;
-&lt;div class=&quot;alert alert-success&quot;&gt;&lt;i class=&quot;fa fa-lightbulb-o&quot;&gt;&lt;/i&gt;  DFTBA&lt;/div&gt;</content>
+&lt;h2 id=&quot;科学上网配置完成。&quot;&gt;&lt;a href=&quot;#科学上网配置完成。&quot; class=&quot;headerlink&quot; title=&quot;科学上网配置完成。&quot;&gt;&lt;/a&gt;科学上网配置完成。&lt;/h2&gt;&lt;div class=&quot;alert alert-info&quot;&gt;&lt;i class=&quot;fa fa-info&quot;&gt;&lt;/i&gt;  每个appid每天限制1G流量，每个帐号限制12个appid&lt;/div&gt;
+&lt;p&gt;若要配置多个appid，则在&lt;a href=&quot;http:/localhost:8085/?module=gae_proxy&amp;amp;menu=deploy&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配置界面-部署服务端界面&lt;/a&gt;和&lt;a href=&quot;http://localhost:8085/?module=gae_proxy&amp;amp;menu=config&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;配置页面&lt;/a&gt;框中填appid时用&lt;code&gt;|&lt;/code&gt;号隔开。&lt;/p&gt;
+&lt;h2 id=&quot;如有意见建议或是问题反馈，可在下方评论。&quot;&gt;&lt;a href=&quot;#如有意见建议或是问题反馈，可在下方评论。&quot; class=&quot;headerlink&quot; title=&quot;如有意见建议或是问题反馈，可在下方评论。&quot;&gt;&lt;/a&gt;如有意见建议或是问题反馈，可在下方评论。&lt;/h2&gt;&lt;div class=&quot;alert alert-success&quot;&gt;&lt;i class=&quot;fa fa-lightbulb-o&quot;&gt;&lt;/i&gt;  DFTBA&lt;/div&gt;</content>
     
     <summary type="html">
     
@@ -138,7 +187,7 @@
 &lt;ol&gt;
 &lt;li&gt;获取XX-NET。&lt;/li&gt;
 &lt;li&gt;设置和初始化。&lt;/li&gt;
-&lt;li&gt;创建和使用自己的appid&lt;/li&gt;
+&lt;li&gt;创建和使用自己的appid*&lt;/li&gt;
 &lt;li&gt;设置代理&lt;/li&gt;
 &lt;li&gt;配置可靠的浏览器。&lt;/li&gt;
 &lt;/ol&gt;

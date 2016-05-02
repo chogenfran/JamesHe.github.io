@@ -4,6 +4,38 @@
   
     
     <entry>
+      <title><![CDATA[C语言零基础入门1-引子]]></title>
+      <url>http://chogenfran.github.io/JamesHe.github.io/JamesHe.github.io/2016/05/02/C%E8%AF%AD%E8%A8%80%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%85%A5%E9%97%A81-%E5%BC%95%E5%AD%90/</url>
+      <content type="html"><![CDATA[<h1 id="C语言入门1–引子。"><a href="#C语言入门1–引子。" class="headerlink" title="C语言入门1–引子。"></a>C语言入门1–引子。</h1><h2 id="一些话"><a href="#一些话" class="headerlink" title="一些话"></a>一些话</h2><p>很早就有这样的念头了，现在网上有的一些编程语言入门，要么废话连篇，要么在谭C的影响下只关注一些未定义行为和完全不该有的繁琐细节。</p>
+<p>像<code>i=i+++i+++i++</code>这样的代码，你不论写给谁看，都会想一巴掌甩在你的脸上。</p>
+<div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  代码最重要的是简洁和可读性</div>
+<p>而国内的很多语言入门学习类书籍完全是朝着编教材的方向去的，动辄<code>定义</code> <code>定理</code> <code>例题</code>完全不考虑学生的兴趣，教学的趣味性，误人子弟，抹杀乐趣。</p>
+<p>再者，圈内有个怪现象就是，学的多了，连人话都不会说了，力求说出的每一句话绝对正确，顺带越晦涩难懂越好，再加上国内大部分大学老师自身教学水平有限，上课大多只是背书，简直就是在恐吓初学者。</p>
+<a id="more"></a>
+<p>我开始这个系列的原因就是希望能帮助对编程有兴趣而因为以上种种原因而不得其门而入的同学，当然，若是您想回顾自己所学，或帮助我查缺补漏，在下也很感谢。</p>
+<p>那么。我们就先从准备工作开始吧。</p>
+<h2 id="IDE的安装"><a href="#IDE的安装" class="headerlink" title="IDE的安装"></a>IDE的安装</h2><p><strong>什么是IDE？</strong><br>IDE就是<strong>集成开发环境</strong>（<strong>I</strong>ntegrated <strong>D</strong>evelopment <strong>E</strong>nvironment）的英文缩写，而集成开发环境包括代码编辑器、编译器、调试器和图形用户界面工具，你可以将它理解成你编程用的工具，就像 <strong>手机是你的通讯工具一样</strong>。</p>
+<div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  程序员通过代码编辑器编辑代码，通过编译器将代码翻译成机器所能理解的机器指令，也就是可执行程序，而调试器帮助程序员调试自己的程序，找出程序漏洞和错误（BUG），图形编译器使程序员编程更方便。</div>
+<p class="text-danger">会有人在你编程建议你不使用IDE，从而更了解编译原理，然而我不建议这样做，初学者应从这些细枝末节中解放出来，更关注他该学习的内容，更高效率的学习，而不是把时间浪费在配置一些东西上面。</p>
+<p>本教程基于<a href="https://www.visualstudio.com/" target="_blank" rel="external">Visual Studio 2015</a><br>微软的Visual Studio 2015 Community是一个免费，功能强大的IDE。<a href="ed2k://|file|cn_visual_studio_community_2015_x86_dvd_6847368.iso|4013920256|EB7F6605EDE67509E218E29173AC6574|/" target="_blank" rel="external">下载链接</a></p>
+<blockquote>
+<p><img src="../../../../images/firstC/community.png" alt="Visual Studio 2015 Community"></p>
+</blockquote>
+<p>下载得到的iso文件后，双击iso文件（win8/10），回到我的电脑，便出现了虚拟光驱，双击打开，或打开其中的运行文件。</p>
+<p>选择自定义</p>
+<blockquote>
+<p><img src="../../../../images/firstC/install1.png" alt="Visual Studio 2015 Community install1"></p>
+</blockquote>
+<p>自己选择要安装的路径，选择编程语言-Visual C++(其他的最好不要选)</p>
+<blockquote>
+<p><img src="../../../../images/firstC/install2.png" alt="Visual Studio 2015 Community install3"></p>
+</blockquote>
+<p>然后可以看个电影，逛逛B站什么的，Visual Studio 2015安装较慢，一般取决于你的硬盘和网络速度，一般会有1个小时左右。</p>
+<p>安装成功后，我们的准备工作就做好啦。</p>
+<div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  DFTBA</div>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[傻瓜科学上网教程（XX-NET）]]></title>
       <url>http://chogenfran.github.io/JamesHe.github.io/JamesHe.github.io/2016/05/01/%E5%82%BB%E7%93%9C%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E6%95%99%E7%A8%8B%EF%BC%88XX-NET%EF%BC%89/</url>
       <content type="html"><![CDATA[<h1 id="用XX-NET科学上网"><a href="#用XX-NET科学上网" class="headerlink" title="用XX-NET科学上网"></a>用XX-NET科学上网</h1><p><a href="https://github.com/XX-net/XX-Net/wiki/%E4%B8%AD%E6%96%87%E6%96%87%E6%A1%A3" target="_blank" rel="external">扩展阅读</a></p>
@@ -12,7 +44,7 @@
 <ol>
 <li>获取XX-NET。</li>
 <li>设置和初始化。</li>
-<li>创建和使用自己的appid</li>
+<li>创建和使用自己的appid*</li>
 <li>设置代理</li>
 <li>配置可靠的浏览器。</li>
 </ol>
@@ -24,13 +56,12 @@
 <blockquote>
 <p><img src="../../../../images/fuckWall/downloadpage.jpg" alt="下载页面截图"></p>
 </blockquote>
-<p>下载稳定版或者懒人集成浏览器版。<br><div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  下载懒人集成浏览器版的就不用往下看了</div>
-
-
-2. 下载后解压，运行start.vbs
-
-
-<div class="alert alert-info"><i class="fa fa-info"></i>  第一次运行时，将需要管理员权限安装证书（win7/8/10）</div><br>启动后，将由默认浏览器弹出<a href="http://localhost:8085/" target="_blank" rel="external">配置界面http://localhost:8085/</a><br>状态栏将出现托盘图标</p>
+<p>下载稳定版或者懒人集成浏览器版。<br><div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  下载懒人集成浏览器版的就不用往下看了</div></p>
+<ol>
+<li>下载后解压，运行<strong>start.vbs</strong></li>
+</ol>
+<div class="alert alert-info"><i class="fa fa-info"></i>  第一次运行时，将需要管理员权限安装证书（win7/8/10）</div>
+<p>启动后，将由默认浏览器弹出<a href="http://localhost:8085/" target="_blank" rel="external">配置界面http://localhost:8085/</a><br>状态栏将出现托盘图标</p>
 <blockquote>
 <p><img src="../../../../images/fuckWall/barIcon.jpg" alt="托盘图标"></p>
 </blockquote>
@@ -39,6 +70,7 @@
 <p><img src="../../../../images/fuckWall/exten.jpg" alt="扩展程序"></p>
 </blockquote>
 <p>接着将解压后的XX-NET文件夹<code>XX-NET\SwitchyOmega</code>下的<code>SwitchyOmega.crx</code>拖到Chrome浏览器扩展程序界面中</p>
+<div class="alert alert-info"><i class="fa fa-info"></i>  新下载安装的Chrome可能完全没有扩展程序，正常现象</div>
 <blockquote>
 <p><img src="../../../../images/fuckWall/install.jpg" alt="文件"></p>
 </blockquote>
@@ -74,10 +106,9 @@
 <blockquote>
 <p><img src="../../../../images/fuckWall/done.jpg" alt="最终"></p>
 </blockquote>
-<div class="alert alert-info"><i class="fa fa-info"></i>  新下载安装的Chrome可能完全没有扩展程序，正常现象 </div>
-<div class="alert alert-info"><i class="fa fa-info"></i>  若无法科学上网，请等待XX-NET搜索IP。</div>
-<h2 id="创建和使用自己的appid"><a href="#创建和使用自己的appid" class="headerlink" title="创建和使用自己的appid"></a>创建和使用自己的appid</h2><div class="alert alert-info"><i class="fa fa-info"></i>  若对网络要求不高，可跳过此步。</div>
-<div class="alert alert-info"><i class="fa fa-info"></i>  该步骤至少需要一个手机号</div>
+<div class="alert alert-info"><i class="fa fa-info"></i>   
+若无法科学上网，请等待XX-NET搜索IP。</div>
+<h2 id="创建和使用自己的appid"><a href="#创建和使用自己的appid" class="headerlink" title="创建和使用自己的appid*"></a>创建和使用自己的appid*</h2><div class="alert alert-info"><i class="fa fa-info"></i>  若对网络要求不高，可跳过此步。</div>
 <ol>
 <li>首先到<a href="https://accounts.google.com/SignUp" target="_blank" rel="external">谷歌注册</a>一个帐号,将需要手机号。</li>
 <li><a href="https://myaccount.google.com/phone?pli=1" target="_blank" rel="external">绑定手机</a>，若注册时已经绑定则可以跳过。</li>
@@ -108,11 +139,9 @@
 <blockquote>
 <p><img src="../../../../images/fuckWall/config.jpg" alt="配置"><br>配置成功<br><img src="../../../../images/fuckWall/AllDone.jpg" alt="成功界面"></p>
 </blockquote>
-<ol>
-<li>科学上网配置完成。<br>若要配置多个appid，则在<a href="http:/localhost:8085/?module=gae_proxy&amp;menu=deploy" target="_blank" rel="external">配置界面-部署服务端界面</a>和<a href="http://localhost:8085/?module=gae_proxy&amp;menu=config" target="_blank" rel="external">配置页面</a>框中填appid时用<code>|</code>号隔开。</li>
-</ol>
-<h2 id="如有意见建议或是问题反馈，可在下方评论。"><a href="#如有意见建议或是问题反馈，可在下方评论。" class="headerlink" title="如有意见建议或是问题反馈，可在下方评论。"></a>如有意见建议或是问题反馈，可在下方评论。</h2><div class="alert alert-info"><i class="fa fa-info"></i>  每个appid每天限制1G流量，每个帐号限制12个appid</div>
-<div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  DFTBA</div>]]></content>
+<h2 id="科学上网配置完成。"><a href="#科学上网配置完成。" class="headerlink" title="科学上网配置完成。"></a>科学上网配置完成。</h2><div class="alert alert-info"><i class="fa fa-info"></i>  每个appid每天限制1G流量，每个帐号限制12个appid</div>
+<p>若要配置多个appid，则在<a href="http:/localhost:8085/?module=gae_proxy&amp;menu=deploy" target="_blank" rel="external">配置界面-部署服务端界面</a>和<a href="http://localhost:8085/?module=gae_proxy&amp;menu=config" target="_blank" rel="external">配置页面</a>框中填appid时用<code>|</code>号隔开。</p>
+<h2 id="如有意见建议或是问题反馈，可在下方评论。"><a href="#如有意见建议或是问题反馈，可在下方评论。" class="headerlink" title="如有意见建议或是问题反馈，可在下方评论。"></a>如有意见建议或是问题反馈，可在下方评论。</h2><div class="alert alert-success"><i class="fa fa-lightbulb-o"></i>  DFTBA</div>]]></content>
     </entry>
     
     <entry>
